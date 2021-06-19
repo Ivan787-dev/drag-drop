@@ -22,7 +22,14 @@
     </style>
     <div class="block"></div>
 
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/draggabilly@2/dist/draggabilly.pkgd.min.js"></script>
+    <script>
+        var elem = document.querySelector('.block');
+        var draggie = new Draggabilly(elem, {
+            // options...
+        });
+
+    </script>
 </body>
 
 </html>
